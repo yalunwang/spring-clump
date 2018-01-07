@@ -2,11 +2,13 @@ package com.yalunwang;
 
 
 import java.io.Serializable;
-
+/**
+   用户实体
+ */
 public class User implements Serializable {
     private String userName;
     private String email;
-    private Integer age;
+    private int age;
 
     public String getUserName() {
         return userName;
@@ -24,11 +26,11 @@ public class User implements Serializable {
         this.email = email;
     }
 
-    public Integer getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(Integer age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
